@@ -1,0 +1,355 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <title>Carmel</title>
+    <link rel="icon" type="image/png" href="./assets/images/CHS.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  </head>
+  <body>
+    <header
+    class="fixed bg-white top-0 right-0 left-0 z-50"
+    data-aos="fade-in"
+    data-aos-delay="300"
+    data-aos-duration="1000"
+  >
+  <div class="wrapper">
+    <div class="container flex justify-between items-center py-3">
+      <!-- Logo -->
+      <div class="flex items-center w-[58px] lg:w-20">
+        <a href="./index.html">
+          <img src="./assets/images/lg.png" alt="Logo" />
+        </a>
+      </div>
+      <!-- <div
+      class="flex items-center"
+    >
+      <div class="flex w-[58px]">
+        <img src="./assets/images/CHS.png" alt="Carmel High School Logo" />
+      </div>
+      <div class="text-center md:text-left">
+        <h2 class="text-sm font-semibold text-[#396DB2]">
+          CARMEL HIGH SCHOOL
+        </h2>
+        <p class="text-[12px] text-white">BASAVESHWARANAGAR, BANGALORE</p>
+      </div>
+    </div> -->
+
+      <!-- Navigation Links -->
+      <nav id="nav-links" class="hidden md:flex space-x-6 gap-[40px]">
+        <a href="./index.html" class="nav-link font-semibold lg:text-xl text-blue hover:text-blue-600"
+          >Home</a
+        >
+        <a
+          href="./aboutpage.html"
+          class="nav-link text-blue font-semibold lg:text-xl hover:text-blue-600"
+          >Race</a
+        >
+        <a
+          href="#"
+          class="nav-link text-blue font-semibold lg:text-xl hover:text-blue-600"
+          >Rules</a
+        >
+        <a
+          href="#"
+          class="nav-link text-blue font-semibold lg:text-xl hover:text-blue-600"
+          >Result</a
+        >
+      </nav>
+
+      <!-- Register Button -->
+      <div>
+        <a
+          href="/registerpage.html"
+          class="racing bg-[#2480F9] text-white px-4 py-2 rounded-xl lg:text-xl italic shadow-md hover:bg-blue-600 transition"
+        >
+          Register Now
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button id="menu-toggle" class="md:hidden focus:outline-none">
+        <svg
+          class="w-6 h-6"
+          fill="none"
+          stroke="blue"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16m-7 6h7"
+          ></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+    <!-- Mobile Menu -->
+    <nav
+      id="mobile-menu"
+      class="absolute left-0 top-16 w-full bg-white shadow-lg p-4 opacity-0 z-10 invisible transform transition-all duration-300 ease-in-out md:hidden"
+    >
+      <a href="./index.html" class="block py-2 text-blue-600">Home</a>
+      <a
+        href="./aboutpage.html"
+        class="block py-2 text-gray-700 hover:text-blue-600"
+        >Race</a
+      >
+      <a
+        href="#"
+        class="block py-2 text-gray-700 hover:text-blue-600"
+        >Rules</a
+      >
+      <a
+        href="#"
+        class="block py-2 text-gray-700 hover:text-blue-600"
+        >Result</a
+      >
+    </nav>
+  </header>
+    <!-- Header ends -->
+
+    <!-- ============================================================================================================ -->
+
+    <!-- Confirm begins -->
+    <section
+      class="confirm pb-6 md:pb-12 pt-[130px] md:pt-[160px] bg-[#F9F9F9]"
+      data-aos="fade-in"
+      data-aos-delay="300"
+      data-aos-offset="200"
+    >
+      <div class="wrapper">
+        <div class="main flex justify-center items-center">
+          <div class="image w-[40%]">
+            <img src="./assets/images/confirm.gif" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Confirm ends -->
+
+    <!-- ================================================================================================================== -->
+       <!-- Scroll to Top Button -->
+       <button id="scrollToTop" class="hidden fixed bottom-6 right-6 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 transition w-14" data-aos="fade"
+       data-aos-delay="100"
+       data-aos-offset="200">
+        <img src="./assets/images/up-arrow.svg" alt="up-arrow"> 
+      </button>
+
+      <div class="fixed bottom-4 left-4 z-50 flex flex-col space-y-3"data-aos="fade-right"
+      data-aos-delay="100"
+      data-aos-offset="200">
+        <!-- Contact Button -->
+        <a href="tel:080-23227015" 
+           class="flex items-center space-x-2 bg-blue-500 text-white px-4 py-4 rounded-full shadow-lg hover:bg-blue-600 transition">
+          📞 <span></span>
+        </a>
+      
+        <!-- Mail Button -->
+        <a href="mailto:info@carmelhighschool.org" 
+           class="flex items-center space-x-2 bg-green-500 text-white px-4 py-4 rounded-full shadow-lg hover:bg-green-600 transition">
+          ✉️ <span></span>
+        </a>
+      </div>
+
+    <!-- Footer begins -->
+    <footer
+      class="bg-gray-900 text-white py-10"
+      data-aos="fade"
+      data-aos-delay="100"
+      data-aos-offset="200"
+    >
+      <div class="wrapper">
+        <!-- Logo & School Name -->
+        <div
+          class="flex flex-col md:flex-row justify-center items-center mb-10 gap-6"
+        >
+          <div class="w-24 flex-shrink-0">
+            <img src="./assets/images/CHS.png" alt="Carmel High School Logo" />
+          </div>
+          <div class="text-center md:text-left">
+            <h2 class="text-xl font-semibold text-[#396DB2]">
+              CARMEL HIGH SCHOOL
+            </h2>
+            <p class="text-[16px] text-white">BASAVESHWARANAGAR, BANGALORE</p>
+          </div>
+        </div>
+
+        <!-- Footer Content -->
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left"
+        >
+          <!-- Contact Section -->
+          <div class="text-white">
+            <h3 class="text-lg font-semibold text-white">Contact</h3>
+            <hr class="w-full my-2 border border-[#396DB2]" />
+            <div class="flex gap-[5px]">
+              <i class="fa-solid fa-map-pin text-white"></i>
+              <p
+              class="text-[16px] flex items-center justify-center md:justify-start text-white"
+            >
+             2nd Block, 3rd Stage, Judges' Colony, <br />
+              West of Chord Road, Basaveshwaranagar, Bangalore 560 079.
+            </p>
+            </div>
+            <p
+              class="text-[16px] mt-2 flex items-center justify-center md:justify-start text-white"
+            >
+              <a href="tel:080-23227015"><i class="fa-solid fa-phone text-white"></i> 080-23227015</a>
+            </p>
+            <p
+              class="text-[16px] mt-2 flex items-center justify-center md:justify-start text-white"
+            >
+              <a href="mailto: info@carmelhighschool.org"
+                >✉️ info@carmelhighschool.org</a
+              >
+            </p>
+          </div>
+
+          <!-- About Section -->
+          <div>
+            <h3 class="text-lg font-semibold text-white">About</h3>
+            <hr class="w-full my-2 border border-[#396DB2]" />
+            <p class="text-[16px] text-white">
+              Carmel School is a learning community of excellence, enabling
+              students of different language abilities to become independent
+              learners and effective communicators.
+            </p>
+          </div>
+
+          <!-- Get Into Section -->
+          <div>
+            <h3 class="text-lg font-semibold text-white">Get Into</h3>
+            <hr class="w-full my-2 border border-[#396DB2]" />
+            <ul class="text-sm space-y-1">
+              <li>
+                <a
+                  href="https://carmelhighschool.org/"
+                  class="text-gray-400 hover:text-gray-200 text-[16px]"
+                  >Welcome To Carmel</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://carmelhighschool.org/carmelfamily"
+                  class="text-gray-400 hover:text-gray-200 text-[16px]"
+                  >Carmel Family</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://carmelhighschool.org/admission_overview"
+                  class="text-gray-400 hover:text-gray-200 text-[16px]"
+                  >Admission Overview</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://carmelhighschool.org/campus"
+                  class="text-gray-400 hover:text-gray-200 text-[16px]"
+                  >Campus Tour</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://carmelhighschool.org/schoolrulesandpolicies"
+                  class="text-gray-400 hover:text-gray-200 text-[16px]"
+                  >Careers</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- App Download Section -->
+        <div class="text-center mt-10">
+          <h3 class="text-lg font-semibold text-white">Get Carmel 360 on:</h3>
+          <div class="flex justify-center gap-4 mt-3">
+            <a href="https://play.google.com/store/apps/details?id=schoolcanvas.carmel.high.school.bangalore&pcampaignid=web_share&pli=1"
+              ><img
+                src="./assets/images/GooglePlay.png"
+                alt="Google Play"
+                class="h-10 w-auto"
+            /></a>
+            <a href="https://apps.apple.com/us/app/carmel-360/id6670202554"
+              ><img
+                src="./assets/images/AppStore.png"
+                alt="App Store"
+                class="h-10 w-auto"
+            /></a>
+          </div>
+        </div>
+
+        <!-- Copyright & Social Icons -->
+        <div
+          class="flex flex-col md:flex-row justify-between items-center text-sm mt-10 border-t border-gray-700 pt-4 text-center md:text-left"
+        >
+          <p class="mb-4 md:mb-0 text-white">
+            Copyright &copy; 2025, Carmel Public School |
+            <a href="https://calistaadesigns.com/" class="text-blue-400 hover:underline"
+              >Website Developer: Calistaadesigns</a
+            >
+          </p>
+          <div class="flex space-x-4">
+            <a href="https://www.facebook.com/people/Carmel-High-School/100090986056562/?mibextid=ZbWKwL"><img src="./assets/images/facebook.png" alt="fb" /></a>
+            <a href="mailto: info@carmelhighschool.org"><img src="./assets/images/mail.png" alt="" /></a>
+            <a href="https://www.linkedin.com/school/carmel-high-school/"><img src="./assets/images/linkedin.png"></a>
+            <a href="#"><img src="./assets/images/skype.png" alt="skype" /></a>
+            <a href="https://x.com/carmelchronicle"
+              ><i class="fa-brands fa-x-twitter text-[#396DB2]"></i></a>
+            <a href="https://www.instagram.com/carmeleducationsociety/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+              ><img src="./assets/images/instagram.png" alt="insta"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer ends  -->
+
+    <!-- ============================================================================================= -->
+    <script src="./assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000, // Animation duration in ms
+        easing: "ease-out", // Easing effect
+        once: false, // Animate only once
+      });
+    </script>
+    <script>
+      const scrollToTopBtn = document.getElementById("scrollToTop");
+  
+      // Show the button when scrolling down
+      window.addEventListener("scroll", function () {
+        if (window.scrollY > 300) {
+          scrollToTopBtn.classList.remove("hidden");
+        } else {
+          scrollToTopBtn.classList.add("hidden");
+        }
+      });
+  
+      // Scroll to top smoothly
+      scrollToTopBtn.addEventListener("click", function () {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+    </script>
+  </body>
+ 
+</html>
